@@ -5,7 +5,7 @@ fun main() {
 }
 class Exercicio8 {
     fun retornarProximoFibonacci(){
-        println("Informe um número: ")
+        println("Informe um número para posição de fibonacci desejada: ")
         val num = readln().toInt()
 
       var fib1 = 0

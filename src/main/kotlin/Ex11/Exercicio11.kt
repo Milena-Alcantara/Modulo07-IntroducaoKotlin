@@ -7,6 +7,7 @@ class Exercicio11 {
 
     fun mediaDosNumerosDosUsuariso(){
         var vetorNumeros = arrayOf<Int>()
+
      for (i in 1..15){
          println("Informe o número desejado: ")
          vetorNumeros = vetorNumeros.plus(readln().toInt())
